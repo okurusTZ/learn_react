@@ -116,9 +116,10 @@ import Event from './event.js'
 import Loggin from './login'
 import MailBox from './mailBox'
 import Page from './showWarn'
+import ToDoList from './toDoList'
 
-const messages = [ 'Re: React', 'Re:Re: React'];
+// const messages = [ 'Re: React', 'Re:Re: React'];
 ReactDOM.render(
-  <Page/>,
+  <ToDoList/>,
   document.getElementById('root')
 )
